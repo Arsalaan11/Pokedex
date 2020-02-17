@@ -1,0 +1,17 @@
+{
+  "name": "chodgson/pokedex",
+  "description": "Pokemon encyclopedia",
+  "type": "project",
+  "require": {
+    "ext-curl": "^7.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": { "Pokedex\\": "src/" }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  }
+}
